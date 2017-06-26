@@ -35,6 +35,9 @@ Current
 
 ### Fixed:
 
+- [Fix MetricLoader Interface and DimensionalFilter Constructor](https://github.com/yahoo/fili/pull/335)
+    * Fix `MetricLoader` interface so that user are not forced to implement deprecated method
+    * Fix `DimensionFilter` constructor to not take `null` as a valid dimension and throw a exception instead
 
 
 ### Known Issues:
